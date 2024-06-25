@@ -1,0 +1,135 @@
+@media (max-width: 768px) {
+  #btn-mobile {
+      display: block;
+  }
+
+  .menu-list {
+      display: none; /* Escondido por padrão */
+      flex-direction: column;
+      width: 100%;
+      background-color: #4CAF50;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      text-align: right;
+  }
+
+  .menu-list li {
+      margin: 10px 0;
+  }
+
+  .menu-list li a {
+      color: white;
+      font-size: 18px;
+  }
+
+  #menu.active {
+      display: flex; /* Mostra o menu quando a classe active é adicionada */
+  }
+
+  .carousel {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+      width: 70px;
+  }
+
+  h1, h2 {
+      font-size: 1.5em;
+  }
+
+  section {
+      padding: 10px;
+  }
+}
+
+
+  /* Celular (Mobile) */
+@media (max-width: 360px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 361px) and (max-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      padding: 15px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      padding: 20px;
+    }
+  }
+  
+  /* Tablet */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 20px;
+    }
+    .container {
+      padding: 25px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+      font-size: 22px;
+    }
+    .container {
+      padding: 30px;
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1281px) and (max-width: 1440px) {
+    body {
+      font-size: 24px;
+    }
+    .container {
+      padding: 35px;
+    }
+  }
+  
+  @media (min-width: 1441px) {
+    body {
+      font-size: 26px;
+    }
+    .container {
+      padding: 40px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

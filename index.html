@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recikla Maricá</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="logo_recikla_marica.jpg" alt="Recikla Maricá" width="5%" height="10%">
+        </div>
+
+        <nav id="nav">
+            <button id="btn-mobile">Menu
+               <span id="hamburguer"></span>
+            </button>
+        <ul id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        
+        </nav>
+      </header>    
+    <main>
+        <section class="carousel">
+            <div class="carousel-slide">
+                <img src="img1.jpeg" alt="Imagem 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="img2.jpeg" alt="Imagem 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="img3.jpeg" alt="Imagem 3">
+            </div>
+        </section>
+
+        <main>
+            <!-- Início -->
+            <section id="home">
+                <h1>Bem-vindo à Recikla Maricá</h1>
+                <p>Somos uma organização dedicada à reciclagem e sustentabilidade em Maricá. Junte-se a nós para fazer a diferença!</p>
+            </section>
+    
+            <!-- Sobre -->
+            <section id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>Fundada em 2022, a Recikla Maricá tem como missão promover a reciclagem e a conscientização ambiental na nossa comunidade. Trabalhamos com diversos projetos que visam educar e facilitar a reciclagem para todos.</p>
+            </section>
+    
+            <!-- Serviços -->
+            <section id="servicos">
+                <h2>Nossos Serviços</h2>
+                <ul>
+                    <li>Coleta seletiva de resíduos</li>
+                    <li>Programas de educação ambiental</li>
+                    <li>Consultoria para empresas e escolas</li>
+                    <li>Campanhas de conscientização</li>
+                </ul>
+            </section>
+    
+            <!-- Projetos -->
+            <section id="projetos">
+                <h2>Projetos</h2>
+                <p>Conheça alguns dos nossos projetos em andamento:</p>
+                <ul>
+                    <li><strong>Projeto Reciclar é Viver:</strong> Incentivamos a reciclagem em escolas através de atividades educativas.</li>
+                    <li><strong>Eco Ponto:</strong> Pontos de coleta espalhados pela cidade para facilitar a reciclagem.</li>
+                    <li><strong>Verde no Bairro:</strong> Plantio de árvores e revitalização de áreas verdes urbanas.</li>
+                </ul>
+            </section>
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+         <!-- Contato -->
+         <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações:</p>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+    </footer>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
